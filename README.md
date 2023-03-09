@@ -6,12 +6,12 @@ written because we needed a translation layer to invoke code on a D1mini.
 see example configuration file `gumble-connect-hook.yaml.example`
 
 ### Mumble Configuration
-`host` mumble host. includes port (`host:port`)
-`username` username to use in mumble. connection with certificate is not supported
+* `host` mumble host. includes port (`host:port`)
+* `username` username to use in mumble. connection with certificate is not supported
 
 ### Hook Configuration
-`method` HTTP method
-`url` URL of the Hook endpoint
+* `method` HTTP method
+* `url` URL of the Hook endpoint
 
 ### Currently Supported HTTP Methods
 * GET
