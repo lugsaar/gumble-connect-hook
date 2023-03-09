@@ -13,7 +13,7 @@ see example configuration file `gumble-connect-hook.yaml.example`
 * `method` HTTP method
 * `url` URL of the Hook endpoint
 
-### Currently Supported HTTP Methods
+#### Currently Supported HTTP Methods
 * GET
 * POST
 
