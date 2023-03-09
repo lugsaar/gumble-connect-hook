@@ -1,0 +1,11 @@
+# mumble configuration
+mumble:
+  host: "mumble.example.org:64738"
+  username: "BOT_connect_hook"
+
+# hook configuration
+hooks:
+  - method: "POST"
+    url: "https://server.example.org/hooks/mumbleConnect"
+  - method: "GET"
+    url: "http://127.0.0.1/hello?source=gumbleConnectHook"
